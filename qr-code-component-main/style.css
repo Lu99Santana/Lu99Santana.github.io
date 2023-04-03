@@ -1,0 +1,50 @@
+@font-face {
+    font-family: Outfit;
+    src: url(./Outfit/Outfit-VariableFont_wght.ttf) format(truetype);
+}
+body {
+    background-color: #d5e1ef;
+    width: 1440px;
+    height: 800px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.bloco-total {
+    width: 320px;
+    height: 500px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin-top: 150px;
+}
+.QR {
+    width: 290px;
+    height: 290px;
+    position: relative;
+    left: 15px;
+    top: 15px
+}
+.QR img {
+    width: 290px;
+    height: 290px;
+    position: relative;
+    border-radius: 15px;
+}
+.texto {
+    font-family: Outfit;
+    text-align: center;
+    position: relative;
+    top: 15px;
+    font-weight: 400, 700;
+}
+.texto p {
+    font-size: 15px;
+    color: #8b8e95;
+}
+.attribution { 
+    font-size: 11px; text-align: center;
+}
+.attribution a {
+     color: hsl(228, 45%, 44%);
+}
